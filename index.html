@@ -1,23 +1,26 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rick and Morty art</title>
+  </head>
+  <body>
+    <h1>Rick and Morty art</h1>
+    <p id="eparagraph"> Since its release the second of December of 2013, the animated series Rick and Morty has had
+      such an impact that it has reached areas such as the arts, where many talented fans have accepted the challenge of portraying 
+      these two celebrated characters. Here are some of the best attempts:
+      <div class="photos">
+        <img src="https://media0dk-a.akamaihd.net/12/29/aa17135bffbed1739d5a3bfee1a63e2d.jpg"/>
+                  <img src="https://img04.deviantart.net/3bd2/i/2015/291/5/6/rick_and_morty_by_superevilman-d9dlzx7.jpg"/>
+        <img src="https://ugc.kn3.net/i/origin/http://img2.rnkr-static.com/user_node_img/50055/1001092525/870/that_s-heavy-rick-photo-u1.jpg"/>
+    </div>
+    <p class="eparagraph">Another sphere where the impact of this series has been really patent is the internet where there are many videos explaining 
+      how anyone can see themselves participate in a Rick and Morty adventure;</p>
+    <video height:320px width:relative controls>
+      <source src="https://www.youtube.com/watch?v=zWoMjPsBclw" type="video/mp4">
 
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+    </video>
+    <p>Rick and Morty portal effect tutorial</p>
+    <a href="https://nineteeneightyeight.com/collections/rick-and-morty">Visit the Rick and Morty gallery</a>
+    &copy <img src="https://vignette4.wikia.nocookie.net/rickandmorty/images/c/c8/Rick_and_Morty_logo.png/revision/latest?cb=20160907114210"/>
+    
+</html>
